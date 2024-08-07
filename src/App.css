@@ -1,1 +1,156 @@
 /* write your css here */
+/* <!-- HTML !--> */
+/* <button class="button-28" role="button">Button 28</button> */
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: rgba(0, 0, 255, 0.699);
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.footer-container {
+
+  padding: 20px;
+  text-align: center;
+}
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.footer-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color:red;
+}
+
+.box
+ { 
+  
+ background-image: url("../public/bg-location.png"); 
+   background-size: cover; 
+   background-repeat: no-repeat;
+ 
+}
+.responsive-filter
+{ display:flex;
+  flex-direction: row;
+  font-size: x-large; 
+  font-weight: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline; 
+  
+  gap:30px;
+ 
+}
+
+.responsive-learn-More 
+{
+
+display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+ gap:20px 
+
+
+
+}
+.box-1
+{
+  width: 70%;
+
+}
+
+.box-2
+{
+  width: 30%; 
+   display: flex;
+  flex-direction: column;
+  gap:50px
+  
+
+
+}
+
+
+@media  screen and (max-width: 898px)
+{
+   .responsive-logo
+   {
+       scale: 70%;
+
+   }
+ .responsive-filter
+ {  
+   display:flex;
+   flex-direction: row;
+   gap:10px;
+
+
+ }
+
+ .responsive-learn-More 
+  {
+     display:inline; 
+     
+  
+  }
+  .box-1
+  {
+    width: 100%;
+  }
+  .box-2
+  {
+    width: 100%; 
+     display: flex;
+    flex-direction: column;
+    gap:20px
+  
+  
+  }
+
+}
